@@ -11817,7 +11817,7 @@
         "title": "User settings",
         "type": "object",
         "properties": {
-          "scheduled_meeting": {
+          "schedule_meeting": {
             "$ref": "#/components/schemas/UserSettings:MeetingSettings"
           },
           "in_meeting": {
@@ -11838,7 +11838,7 @@
         }
       },
       "UserSettings:MeetingSettings": {
-        "title": "scheduled_meeting",
+        "title": "schedule_meeting",
         "type": "object",
         "properties": {
           "host_video": {
@@ -12152,7 +12152,7 @@
         "title": "User settings137",
         "type": "object",
         "properties": {
-          "scheduled_meeting": {
+          "schedule_meeting": {
             "$ref": "#/components/schemas/UserSettings:MeetingSettings"
           },
           "in_meeting": {
