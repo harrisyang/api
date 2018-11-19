@@ -1,5 +1,5 @@
 # Dashboard APIs
-Note: All the Dashboard APIs are only for Biz+ accounts or paid accounts with Dashboard feature.
+> Note: All the Dashboard APIs are only for Biz+ accounts or paid accounts with Dashboard feature.
 
 ### List meetings
 https://marketplace.zoom.us/docs/api-reference/zoom-api/dashboards/dashboardmeetings
