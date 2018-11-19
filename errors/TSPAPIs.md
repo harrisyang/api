@@ -1,12 +1,22 @@
-### List TSP dial-in numbers
-https://devdocs.zoom.us/v1.0/reference#tsp-1
+# TSP APIs
+> Note: All the TSP APIs requires the account to be TSP enabled by Zoom admin. All the user level TSP APIs needs TSP to be enabled on account level.
+
+### Retrieve account's TSP information
+https://marketplace.zoom.us/docs/api-reference/zoom-api/tsp/tsp
+
+| code | message                 | 
+|:---- |:----------------------- |
+| 2024 | Account not enable TSP. |
+
+### Update account's TSP information
+https://marketplace.zoom.us/docs/api-reference/zoom-api/tsp/tspupdate
 
 | code | message                 | 
 |:---- |:----------------------- |
 | 2024 | Account not enable TSP. |
 
 ### List user's TSP accounts
-https://devdocs.zoom.us/v1.0/reference#usertsps
+https://marketplace.zoom.us/docs/api-reference/zoom-api/tsp/usertsps
 
 | code | message                          |
 |:---- |:-------------------------------- |
@@ -16,7 +26,7 @@ https://devdocs.zoom.us/v1.0/reference#usertsps
 | 2024 | Account not enable TSP.          |
 
 ### Add a user's TSP account
-https://devdocs.zoom.us/v1.0/reference#usertspcreate
+https://marketplace.zoom.us/docs/api-reference/zoom-api/tsp/usertspcreate
 
 | code | message                          |
 |:---- |:-------------------------------- |
@@ -26,7 +36,7 @@ https://devdocs.zoom.us/v1.0/reference#usertspcreate
 | 2024 | Account not enable TSP.          |
 
 ### Retrieve a user's TSP account
-https://devdocs.zoom.us/v1.0/reference#usertsp
+https://marketplace.zoom.us/docs/api-reference/zoom-api/tsp/usertsp
 
 | code | message                          |
 |:---- |:-------------------------------- |
@@ -36,7 +46,7 @@ https://devdocs.zoom.us/v1.0/reference#usertsp
 | 2024 | Account not enable TSP.          |
 
 ### Update a TSP account
-https://devdocs.zoom.us/v1.0/reference#usertspupdate
+https://marketplace.zoom.us/docs/api-reference/zoom-api/tsp/usertspupdate
 
 | code | message                          |
 |:---- |:-------------------------------- |
@@ -47,7 +57,7 @@ https://devdocs.zoom.us/v1.0/reference#usertspupdate
 
 
 ### Delete a user's TSP account
-https://devdocs.zoom.us/v1.0/reference#usertspdelete
+https://marketplace.zoom.us/docs/api-reference/zoom-api/tsp/usertspdelete
 
 | code | message                          |
 |:---- |:-------------------------------- |

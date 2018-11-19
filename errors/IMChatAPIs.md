@@ -1,5 +1,5 @@
 ### Retrieve IM Chat sessions
-https://devdocs.zoom.us/v1.0/reference#imchatsessions
+https://marketplace.zoom.us/docs/api-reference/zoom-api/im-chat/imchatsessions
 
 | code | Message                                    |
 |:---- |:------------------------------------------ |
@@ -7,7 +7,7 @@ https://devdocs.zoom.us/v1.0/reference#imchatsessions
 | 300  | Only provide report in recent 6 months     |
 
 ### Retrieve IM Chat messages
-https://devdocs.zoom.us/v1.0/reference#imchatmessages
+https://marketplace.zoom.us/docs/api-reference/zoom-api/im-chat/imchatmessages
 
 | code | Message                                    |
 |:---- |:------------------------------------------ |

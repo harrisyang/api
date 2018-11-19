@@ -1,12 +1,15 @@
+# H323Device APIs
+> Note: All the H323Device APIs requires the account to be subscribed to H.323/SIP Room Connector plans.
+
 ### List H.323/SIP Devices.
-https://devdocs.zoom.us/v1.0/reference#devicelist
+https://marketplace.zoom.us/docs/api-reference/zoom-api/devices/devicelist
 
 | code | Message        |
 |:---- |:-------------- |
 | 200  | No permission. | 
 
 ### Create a H.323/SIP Device
-https://devdocs.zoom.us/v1.0/reference#devicecreate
+https://marketplace.zoom.us/docs/api-reference/zoom-api/devices/devicecreate
 
 | code | Message                                                    |
 |:---- |:---------------------------------------------------------- |
@@ -14,7 +17,7 @@ https://devdocs.zoom.us/v1.0/reference#devicecreate
 | 2020 | H.323 device display name:{displayName} is already in use. | 
 
 ### Update a H.323/SIP Device
-https://devdocs.zoom.us/v1.0/reference#deviceupdate
+https://marketplace.zoom.us/docs/api-reference/zoom-api/devices/deviceupdate
 
 | code | Message                                                    |
 |:---- |:---------------------------------------------------------- |
@@ -23,7 +26,7 @@ https://devdocs.zoom.us/v1.0/reference#deviceupdate
 | 2020 | H.323 device display name:{displayName} is already in use. |
 
 ### Delete a H.323/SIP Device
-https://devdocs.zoom.us/v1.0/reference#devicedelete
+https://marketplace.zoom.us/docs/api-reference/zoom-api/devices/devicedelete
 
 | code | Message                              |
 |:---- |:------------------------------------ |

@@ -1,5 +1,8 @@
+# PAC APIs
+> Note: All the PAC APIs requires the account to be subscribed to Audio Conferencing Options plans.
+
 ### List user's PAC accounts
-https://devdocs.zoom.us/v1.0/reference#userpacs
+https://marketplace.zoom.us/docs/api-reference/zoom-api/pac/userpacs
 
 | code | message                                       |
 |:---- |:--------------------------------------------- |

@@ -1,5 +1,8 @@
+# Group APIs
+> Note: All the Group APIs are only for Biz+ accounts or paid accounts.
+
 ### List groups
-https://devdocs.zoom.us/v1.0/reference#groups-1
+https://marketplace.zoom.us/docs/api-reference/zoom-api/groups/groups
 
 code | message
 -----|-----
@@ -7,7 +10,7 @@ code | message
 4130 | Group not exist:{groupId}
 
 ### Create a group
-https://devdocs.zoom.us/v1.0/reference#groupcreate
+https://marketplace.zoom.us/docs/api-reference/zoom-api/groups/groupcreate
 
 code | message
 -----|-----
@@ -17,7 +20,7 @@ code | message
 4132 | Group name {groupName} is already in use.
 
 ### Retrieve a group
-https://devdocs.zoom.us/v1.0/reference#group
+https://marketplace.zoom.us/docs/api-reference/zoom-api/groups/group
 
 code | message
 -----|-----
@@ -26,7 +29,7 @@ code | message
 4130 | Group not exist:{groupId}
 
 ### Update a group
-https://devdocs.zoom.us/v1.0/reference#groupupdate
+https://marketplace.zoom.us/docs/api-reference/zoom-api/groups/groupupdate
 
 code | message
 -----|-----
@@ -36,7 +39,7 @@ code | message
 4132 | Group name {groupName} is already in use.
 
 ### Delete a group
-https://devdocs.zoom.us/v1.0/reference#groupdelete
+https://marketplace.zoom.us/docs/api-reference/zoom-api/groups/groupdelete
 
 code | message
 -----|-----
@@ -44,7 +47,7 @@ code | message
 4130 | Group not exist:{groupId}
 
 ### List a group’s members
-https://devdocs.zoom.us/v1.0/reference#groupmembers
+https://marketplace.zoom.us/docs/api-reference/zoom-api/groups/groupmembers
 
 code | message
 -----|-----
@@ -52,7 +55,7 @@ code | message
 4130 | Group not exist:{groupId}
 
 ### Add group members
-https://devdocs.zoom.us/v1.0/reference#groupmemberscreate
+https://marketplace.zoom.us/docs/api-reference/zoom-api/groups/groupmemberscreate
 
 code | message
 -----|-----
@@ -61,7 +64,7 @@ code | message
 
 
 ### Delete a group member
-https://devdocs.zoom.us/v1.0/reference#groupmembersdelete
+https://marketplace.zoom.us/docs/api-reference/zoom-api/groups/groupmembersdelete
 
 code | message
 -----|-----
