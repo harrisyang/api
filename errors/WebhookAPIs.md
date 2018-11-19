@@ -1,5 +1,7 @@
+# Webhook APIs
+
 ### Switch webhook version
-https://devdocs.zoom.us/v1.0/reference#webhookswitch
+https://marketplace.zoom.us/docs/api-reference/zoom-api/webhooks/webhookswitch
 
 | code | message                                       |
 |:---- |:--------------------------------------------- |
@@ -7,7 +9,7 @@ https://devdocs.zoom.us/v1.0/reference#webhookswitch
 | 200  | No permission.                                | 
 
 ### List webhooks
-https://devdocs.zoom.us/v1.0/reference#webhooks-2
+https://marketplace.zoom.us/docs/api-reference/zoom-api/webhooks/webhooks
 
 | code | message                                       |
 |:---- |:--------------------------------------------- |
@@ -16,7 +18,7 @@ https://devdocs.zoom.us/v1.0/reference#webhooks-2
 | 200  | No permission.                                |
 
 ### Create a webhook
-https://devdocs.zoom.us/v1.0/reference#webhookcreate
+https://marketplace.zoom.us/docs/api-reference/zoom-api/webhooks/webhookcreate
 
 | code | message                                        |
 |:---- |:---------------------------------------------- |
@@ -26,7 +28,7 @@ https://devdocs.zoom.us/v1.0/reference#webhookcreate
 | 2202 | Can only add max one webhook under an account. | 
 
 ### Retrieve a webhook
-https://devdocs.zoom.us/v1.0/reference#webhook
+https://marketplace.zoom.us/docs/api-reference/zoom-api/webhooks/webhook
 
 | code | message                                       |
 |:---- |:--------------------------------------------- |
@@ -36,7 +38,7 @@ https://devdocs.zoom.us/v1.0/reference#webhook
 | 2201 | Webhook not exist: {webhookId}.               | 
 
 ### Update a webhook
-https://devdocs.zoom.us/v1.0/reference#webhookupdate
+https://marketplace.zoom.us/docs/api-reference/zoom-api/webhooks/webhookupdate
 
 | code | message                                       |
 |:---- |:--------------------------------------------- |
@@ -46,7 +48,7 @@ https://devdocs.zoom.us/v1.0/reference#webhookupdate
 | 2201 | Webhook not exist: {webhookId}.               | 
 
 ### Delete a webhook
-https://devdocs.zoom.us/v1.0/reference#webhookdelete
+https://marketplace.zoom.us/docs/api-reference/zoom-api/webhooks/webhookdelete
 
 | code | message                                       |
 |:---- |:--------------------------------------------- |
