@@ -1,5 +1,8 @@
+# Dashboard APIs
+Note: All the Dashboard APIs are only for Biz+ accounts or paid accounts with Dashboard feature.
+
 ### List meetings
-https://devdocs.zoom.us/v1.0/reference#dashboardmeetings
+https://marketplace.zoom.us/docs/api-reference/zoom-api/dashboards/dashboardmeetings
 
 | code | message                                                        |
 |:---- |:-------------------------------------------------------------- |
@@ -7,7 +10,7 @@ https://devdocs.zoom.us/v1.0/reference#dashboardmeetings
 | 300  | The next page token is invalid or expired.                     | 
 
 ### Retrieve meeting detail
-https://devdocs.zoom.us/v1.0/reference#dashboardmeetingdetail
+https://marketplace.zoom.us/docs/api-reference/zoom-api/dashboards/dashboardmeetingdetail
 
 | code | message                                                          |
 |:---- |:---------------------------------------------------------------- |
@@ -17,7 +20,7 @@ https://devdocs.zoom.us/v1.0/reference#dashboardmeetingdetail
 | 3001 | This meeting's details info is not available or ID is not valid. |
 
 ### Retrieve meeting participants
-https://devdocs.zoom.us/v1.0/reference#dashboardmeetingparticipants
+https://marketplace.zoom.us/docs/api-reference/zoom-api/dashboards/dashboardmeetingparticipants
 
 | code | message                                                          |
 |:---- |:---------------------------------------------------------------- |
@@ -28,7 +31,7 @@ https://devdocs.zoom.us/v1.0/reference#dashboardmeetingparticipants
 | 3001 | This meeting's details info is not available or ID is not valid. |
 
 ### Retrieve meeting participant QOS
-https://devdocs.zoom.us/v1.0/reference#dashboardmeetingparticipantqos
+https://marketplace.zoom.us/docs/api-reference/zoom-api/dashboards/dashboardmeetingparticipantqos
 
 | code | message                                                          |
 |:---- |:---------------------------------------------------------------- |
@@ -39,7 +42,7 @@ https://devdocs.zoom.us/v1.0/reference#dashboardmeetingparticipantqos
 
 
 ### List meeting participants QOS
-https://devdocs.zoom.us/v1.0/reference#dashboardmeetingparticipantsqos
+https://marketplace.zoom.us/docs/api-reference/zoom-api/dashboards/dashboardmeetingparticipantsqos
 
 | code | message                                                          |
 |:---- |:---------------------------------------------------------------- |
@@ -50,7 +53,7 @@ https://devdocs.zoom.us/v1.0/reference#dashboardmeetingparticipantsqos
 | 3001 | This meeting's details info is not available or ID is not valid. |
 
 ### Retrieve sharing/recording details of meeting participant
-https://devdocs.zoom.us/v1.0/reference#dashboardmeetingparticipantshare
+https://marketplace.zoom.us/docs/api-reference/zoom-api/dashboards/dashboardmeetingparticipantshare
 
 | code | message                                                          |
 |:---- |:---------------------------------------------------------------- |
@@ -61,7 +64,7 @@ https://devdocs.zoom.us/v1.0/reference#dashboardmeetingparticipantshare
 | 3001 | This meeting's details info is not available or ID is not valid. |
 
 ### List webinars
-https://devdocs.zoom.us/v1.0/reference#dashboardwebinars
+https://marketplace.zoom.us/docs/api-reference/zoom-api/dashboards/dashboardwebinars
 
 | code | message                                                        |
 |:---- |:-------------------------------------------------------------- |
@@ -69,7 +72,7 @@ https://devdocs.zoom.us/v1.0/reference#dashboardwebinars
 | 300  | The next page token is invalid or expired.                     | 
 
 ### Retrieve webinar detail
-https://devdocs.zoom.us/v1.0/reference#dashboardwebinardetail
+https://marketplace.zoom.us/docs/api-reference/zoom-api/dashboards/dashboardwebinardetail
 
 | code | message                                                          |
 |:---- |:---------------------------------------------------------------- |
@@ -79,7 +82,7 @@ https://devdocs.zoom.us/v1.0/reference#dashboardwebinardetail
 | 3001 | This meeting's details info is not available or ID is not valid. |
 
 ### Retrieve webinar participants
-https://devdocs.zoom.us/v1.0/reference#dashboardwebinarparticipants
+https://marketplace.zoom.us/docs/api-reference/zoom-api/dashboards/dashboardwebinarparticipants
 
 | code | message                                                          |
 |:---- |:---------------------------------------------------------------- |
@@ -90,7 +93,7 @@ https://devdocs.zoom.us/v1.0/reference#dashboardwebinarparticipants
 | 3001 | This meeting's details info is not available or ID is not valid. |
 
 ### Retrieve webinar participant QOS
-https://devdocs.zoom.us/v1.0/reference#dashboardwebinarparticipants
+https://marketplace.zoom.us/docs/api-reference/zoom-api/dashboards/dashboardwebinarparticipantqos
 
 | code | message                                                          |
 |:---- |:---------------------------------------------------------------- |
@@ -100,7 +103,7 @@ https://devdocs.zoom.us/v1.0/reference#dashboardwebinarparticipants
 | 3001 | This meeting's details info is not available or ID is not valid. |
 
 ### List webinar participant QOS
-https://devdocs.zoom.us/v1.0/reference#dashboardwebinarparticipantsqos
+https://marketplace.zoom.us/docs/api-reference/zoom-api/dashboards/dashboardwebinarparticipantsqos
 
 | code | message                                                          |
 |:---- |:---------------------------------------------------------------- |
@@ -111,7 +114,7 @@ https://devdocs.zoom.us/v1.0/reference#dashboardwebinarparticipantsqos
 | 3001 | This meeting's details info is not available or ID is not valid. |
 
 ### Retrieve sharing/recording details of webinar participant
-https://devdocs.zoom.us/v1.0/reference#dashboardwebinarparticipantshare
+https://marketplace.zoom.us/docs/api-reference/zoom-api/dashboards/dashboardwebinarparticipantshare
 
 | code | message                                                          |
 |:---- |:---------------------------------------------------------------- |
@@ -122,14 +125,14 @@ https://devdocs.zoom.us/v1.0/reference#dashboardwebinarparticipantshare
 | 3001 | This meeting's details info is not available or ID is not valid. |
 
 ### List Zoom Rooms
-https://devdocs.zoom.us/v1.0/reference#dashboardzoomrooms
+https://marketplace.zoom.us/docs/api-reference/zoom-api/dashboards/dashboardzoomrooms
 
 | code | message                                                        |
 |:---- |:-------------------------------------------------------------- |
 | 200  | Only available for paid account and enabled Dashboard feature. |
 
 ### Retrieve Zoom Room
-https://devdocs.zoom.us/v1.0/reference#dashboardzoomroom
+https://marketplace.zoom.us/docs/api-reference/zoom-api/dashboards/dashboardzoomroom
 
 | code | message                                                        |
 |:---- |:-------------------------------------------------------------- |
@@ -137,14 +140,14 @@ https://devdocs.zoom.us/v1.0/reference#dashboardzoomroom
 | 300  | The next page token is invalid or expired.                     | 
 
 ### Retrieve CRC Port Usage
-https://devdocs.zoom.us/v1.0/reference#dashboardcrc
+https://marketplace.zoom.us/docs/api-reference/zoom-api/dashboards/dashboardcrc
 
 | code | message                                                        |
 |:---- |:-------------------------------------------------------------- |
 | 200  | Only available for paid account and enabled Dashboard feature. |
 
 ### Retrieve IM
-https://devdocs.zoom.us/v1.0/reference#dashboardim
+https://marketplace.zoom.us/docs/api-reference/zoom-api/dashboards/dashboardim
 
 | code | message                                                        |
 |:---- |:-------------------------------------------------------------- |
