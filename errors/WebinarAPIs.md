@@ -1,5 +1,5 @@
 ### List webinars
-https://devdocs.zoom.us/v1.0/reference#webinars-1
+https://marketplace.zoom.us/docs/api-reference/zoom-api/webinars/webinars
 
 code | message
 -----|-----
@@ -8,7 +8,7 @@ code | message
 1010 | User not belong to this account:{accountId}.
 
 ### Create a webinar
-https://devdocs.zoom.us/v1.0/reference#webinarcreate
+https://marketplace.zoom.us/docs/api-reference/zoom-api/webinars/webinarcreate
 
 code | message
 -----|-----
@@ -19,7 +19,7 @@ code | message
 3001 | Webinar {webinarId} not found or expired.
 
 ### Retrieve a webinar
-https://devdocs.zoom.us/v1.0/reference#webinar
+https://marketplace.zoom.us/docs/api-reference/zoom-api/webinars/webinar
 
 code | message
 -----|-----
@@ -30,7 +30,7 @@ code | message
 1010 | User not belong to this account:{accountId}.
 
 ### Update a webinar
-https://devdocs.zoom.us/v1.0/reference#webinarupdate
+https://marketplace.zoom.us/docs/api-reference/zoom-api/webinars/webinarupdate
 
 code | message
 -----|-----
@@ -43,7 +43,7 @@ code | message
 3003 | Not meeting host.
 
 ### Delete a webinar
-https://devdocs.zoom.us/v1.0/reference#webinardelete
+https://marketplace.zoom.us/docs/api-reference/zoom-api/webinars/webinardelete
 
 code | message
 -----|-----
@@ -60,7 +60,7 @@ code | message
 3037 | Not allow to delete PAC.
 
 ### Update a webinar’s status
-https://devdocs.zoom.us/v1.0/reference#webinarstatus
+https://marketplace.zoom.us/docs/api-reference/zoom-api/webinars/webinarstatus
 
 code | message
 -----|-----
@@ -73,7 +73,7 @@ code | message
 3063 | Can not end on-premise user's meeting:{meetingId}.
 
 ### List a webinar’s panelists
-https://devdocs.zoom.us/v1.0/reference#webinarpanelists
+https://marketplace.zoom.us/docs/api-reference/zoom-api/webinars/webinarpanelists
 
 code | message
 -----|-----
@@ -84,7 +84,7 @@ code | message
 3001 | Webinar {webinarId} not found or expired.
 
 ### Add a webinar panelist
-https://devdocs.zoom.us/v1.0/reference#webinarpanelistcreate
+https://marketplace.zoom.us/docs/api-reference/zoom-api/webinars/webinarpanelistcreate
 
 code | message
 -----|-----
@@ -95,7 +95,7 @@ code | message
 3001 | Webinar {webinarId} not found or expired.
 
 ### Remove a webinar’s panelists
-https://devdocs.zoom.us/v1.0/reference#webinarpanelistsdelete
+https://marketplace.zoom.us/docs/api-reference/zoom-api/webinars/webinarpanelistsdelete
 
 code | message
 -----|-----
@@ -107,7 +107,7 @@ code | message
 
 
 ### Remove a webinar panelist
-https://devdocs.zoom.us/v1.0/reference#webinarpanelistdelete
+https://marketplace.zoom.us/docs/api-reference/zoom-api/webinars/webinarpanelistdelete
 
 code | message
 -----|-----
@@ -118,7 +118,7 @@ code | message
 3001 | Webinar {webinarId} not found or expired.
 
 ### List a webinar’s registrants
-https://devdocs.zoom.us/v1.0/reference#webinarregistrants
+https://marketplace.zoom.us/docs/api-reference/zoom-api/webinars/webinarregistrants
 
 code | message
 -----|-----
@@ -129,7 +129,7 @@ code | message
 3001 | Webinar {webinarId} not found or expired.
 
 ### Add a webinar registrant
-https://devdocs.zoom.us/v1.0/reference#webinarregistrantcreate
+https://marketplace.zoom.us/docs/api-reference/zoom-api/webinars/webinarregistrantcreate
 
 code | message
 -----|-----
@@ -144,7 +144,7 @@ code | message
 3038 | Webinar is over, you can not register now. If you have any questions, please contact Webinar host.
 
 ### Update a webinar registrant’s status
-https://devdocs.zoom.us/v1.0/reference#webinarregistrantstatus
+https://marketplace.zoom.us/docs/api-reference/zoom-api/webinars/webinarregistrantstatus
 
 code | message
 -----|-----
@@ -156,7 +156,7 @@ code | message
 3035 | Webinar has reached maximum attendee capacity.
 
 ### List of ended webinar instances
-https://devdocs.zoom.us/v1.0/reference#pastwebinars
+https://marketplace.zoom.us/docs/api-reference/zoom-api/webinars/pastwebinars
 
 code | message
 -----|-----

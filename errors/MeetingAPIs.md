@@ -1,5 +1,5 @@
 ### List meetings
-https://devdocs.zoom.us/v1.0/reference#meetings-1
+https://marketplace.zoom.us/docs/api-reference/zoom-api/meetings/meetings
 
 code | message
 -----|----- 
@@ -9,7 +9,7 @@ code | message
 1010 | User not belong to this account: {accountId}
 
 ### Create a meeting
-https://devdocs.zoom.us/v1.0/reference#meetingcreate
+https://marketplace.zoom.us/docs/api-reference/zoom-api/meetings/meetingcreate
 
 code | message
 -----|-----
@@ -19,7 +19,7 @@ code | message
 1010 | User not belong to this account:{accountId}
 
 ### Retrieve a meeting
-https://devdocs.zoom.us/v1.0/reference#meeting
+https://marketplace.zoom.us/docs/api-reference/zoom-api/meetings/meeting
 
 code | message
 -----|-----
@@ -29,7 +29,7 @@ code | message
 3000 | Cannot access webinar info.
 
 ### Update a meeting
-https://devdocs.zoom.us/v1.0/reference#meetingupdate
+https://marketplace.zoom.us/docs/api-reference/zoom-api/meetings/meetingupdate
 
 code | message
 -----|-----
@@ -41,7 +41,7 @@ code | message
 3003 | Not meeting host.
 
 ### Delete a meeting
-https://devdocs.zoom.us/v1.0/reference#meetingdelete
+https://marketplace.zoom.us/docs/api-reference/zoom-api/meetings/meetingdelete
 
 code | message
 -----|-----
@@ -57,7 +57,7 @@ code | message
 3037 | Not allow to delete PAC.
 
 ### Update a meeting’s status
-https://devdocs.zoom.us/v1.0/reference#meetingstatus
+https://marketplace.zoom.us/docs/api-reference/zoom-api/meetings/meetingstatus
 
 code | message
 -----|-----
@@ -70,7 +70,7 @@ code | message
 
 
 ### List a meeting’s registrants
-https://devdocs.zoom.us/v1.0/reference#meetingregistrants
+https://marketplace.zoom.us/docs/api-reference/zoom-api/meetings/meetingregistrants
 
 code | message
 -----|-----
@@ -82,7 +82,7 @@ code | message
 3003 | Not meeting host.
 
 ### Add a meeting registrant
-https://devdocs.zoom.us/v1.0/reference#meetingregistrantcreate
+https://marketplace.zoom.us/docs/api-reference/zoom-api/meetings/meetingregistrantcreate
 
 code | message
 -----|-----
@@ -97,7 +97,7 @@ code | message
 3051 | If you have been invited, please input your work email address
 
 ### Update a meeting registrant’s status
-https://devdocs.zoom.us/v1.0/reference#meetingregistrantstatus
+https://marketplace.zoom.us/docs/api-reference/zoom-api/meetings/meetingregistrantstatus
 
 code | message
 -----|-----
@@ -109,7 +109,7 @@ code | message
 3003 | Not meeting host.
 
 ### Retrieve past meeting details
-https://devdocs.zoom.us/v1.0/reference#pastmeetingdetails
+https://marketplace.zoom.us/docs/api-reference/zoom-api/meetings/pastmeetingdetails
 
 code | message
 -----|-----
@@ -122,7 +122,7 @@ code | message
 
 
 ### Retrieve past meeting participants
-https://devdocs.zoom.us/v1.0/reference#pastmeetingparticipants
+https://marketplace.zoom.us/docs/api-reference/zoom-api/meetings/pastmeetingparticipants
 
 code | message
 -----|-----

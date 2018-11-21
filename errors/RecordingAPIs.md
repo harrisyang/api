@@ -1,5 +1,5 @@
 ### List all the recordings
-https://devdocs.zoom.us/v1.0/reference#recordingslist
+https://marketplace.zoom.us/docs/api-reference/zoom-api/cloud-recording/recordingslist
 
 code | message
 -----|-----
@@ -8,7 +8,7 @@ code | message
 1010 | User not belong to this account:{accountId}
 
 ### Retrieve a meeting’s all recordings
-https://devdocs.zoom.us/v1.0/reference#recordingget
+https://marketplace.zoom.us/docs/api-reference/zoom-api/cloud-recording/recordingget
 
 code | message
 -----|-----
@@ -18,7 +18,7 @@ code | message
 3301 | There is no recording for this meeting
 
 ### Delete a meeting’s recordings
-https://devdocs.zoom.us/v1.0/reference#recordingdelete
+https://marketplace.zoom.us/docs/api-reference/zoom-api/cloud-recording/recordingdelete
 
 code | message
 -----|-----
@@ -29,7 +29,7 @@ code | message
 3301 | Recording file does not exist
 
 ### Delete one meeting recording file
-https://devdocs.zoom.us/v1.0/reference#recordingdeleteone
+https://marketplace.zoom.us/docs/api-reference/zoom-api/cloud-recording/recordingdeleteone
 
 code | message
 -----|-----
@@ -41,7 +41,7 @@ code | message
 3301 | Recording file does not exist
 
 ### Recover a meeting’s recordings.
-https://devdocs.zoom.us/v1.0/reference#recordingstatusupdate
+https://marketplace.zoom.us/docs/api-reference/zoom-api/cloud-recording/recordingstatusupdate
 
 code | message
 -----|-----
@@ -52,7 +52,7 @@ code | message
 3301 | Recording file does not exist
 
 ### Recover a single recording
-https://devdocs.zoom.us/v1.0/reference#recordingstatusupdateone
+https://marketplace.zoom.us/docs/api-reference/zoom-api/cloud-recording/recordingstatusupdateone
 
 code | message
 -----|-----
