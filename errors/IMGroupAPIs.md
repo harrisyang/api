@@ -1,5 +1,8 @@
+# IMGroup APIs
+> Note: All the IMGroup APIs are only for Biz+ accounts or paid accounts.
+
 ### List IM Groups
-https://devdocs.zoom.us/v1.0/reference#imgroups
+https://marketplace.zoom.us/docs/api-reference/zoom-api/im-groups/imgroups
 
 code | message
 -----|-----
@@ -7,7 +10,7 @@ code | message
 4130 | Group not exist:{groupId}
 
 ### Create an IM Group
-https://devdocs.zoom.us/v1.0/reference#imgroupcreate
+https://marketplace.zoom.us/docs/api-reference/zoom-api/im-groups/imgroupcreate
 
 code | message
 -----|-----
@@ -17,7 +20,7 @@ code | message
 4132 | Group name {groupName} is already in use.
 
 ### Retrieve an IM Group
-https://devdocs.zoom.us/v1.0/reference#imgroup
+https://marketplace.zoom.us/docs/api-reference/zoom-api/im-groups/imgroup
 
 code | message
 -----|-----
@@ -26,7 +29,7 @@ code | message
 4130 | IM Group not exist:{groupId}
 
 ### Update an IM Group
-https://devdocs.zoom.us/v1.0/reference#imgroupupdate
+https://marketplace.zoom.us/docs/api-reference/zoom-api/im-groups/imgroupupdate
 
 code | message
 -----|-----
@@ -35,7 +38,7 @@ code | message
 4130 | IM Group not exist:{groupId}
 
 ### Delete an IM Group
-https://devdocs.zoom.us/v1.0/reference#imgroupdelete
+https://marketplace.zoom.us/docs/api-reference/zoom-api/im-groups/imgroupdelete
 
 code | message
 -----|-----
@@ -45,7 +48,7 @@ code | message
 4130 | Group not exist:{groupId}
 
 ### List an IM Group’s members
-https://devdocs.zoom.us/v1.0/reference#imgroupmembers
+https://marketplace.zoom.us/docs/api-reference/zoom-api/im-groups/imgroupmembers
 
 code | message
 -----|-----
@@ -53,7 +56,7 @@ code | message
 200  | Only available for Paid account,{accountId}
 
 ### Add IM Group members
-https://devdocs.zoom.us/v1.0/reference#imgroupmemberscreate
+https://marketplace.zoom.us/docs/api-reference/zoom-api/im-groups/imgroupmemberscreate
 
 code | message
 -----|-----
@@ -61,7 +64,7 @@ code | message
 200  | Only available for Paid account,{accountId}
 
 ### Delete an IM Group member
-https://devdocs.zoom.us/v1.0/reference#imgroupmembersdelete
+https://marketplace.zoom.us/docs/api-reference/zoom-api/im-groups/imgroupmembersdelete
 
 code | message
 -----|-----

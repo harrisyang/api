@@ -1,19 +1,23 @@
+# Report APIs
+
+> Note: All the Report APIs are only for paid accounts.
+
 ### Retrieve daily report
-https://devdocs.zoom.us/v1.0/reference#reportdaily
+https://marketplace.zoom.us/docs/api-reference/zoom-api/reports/reportdaily
 
 | code | message                                       |
 |:---- |:--------------------------------------------- |
 | 200  | Only available for Paid account: {accountId}. | 
 
 ### Retrieve hosts report
-https://devdocs.zoom.us/v1.0/reference#reportusers
+https://marketplace.zoom.us/docs/api-reference/zoom-api/reports/reportusers
 
 | code | message                                       |
 |:---- |:--------------------------------------------- |
 | 200  | Only available for Paid account: {accountId}. | 
 
 ### Retrieve meetings report
-https://devdocs.zoom.us/v1.0/reference#reportmeetings
+https://marketplace.zoom.us/docs/api-reference/zoom-api/reports/reportmeetings
 
 | code | message                                       |
 |:---- |:--------------------------------------------- |
@@ -21,7 +25,7 @@ https://devdocs.zoom.us/v1.0/reference#reportmeetings
 | 300  | The next page token is invalid or expired.    |
 
 ### Retrieve meeting details report
-https://devdocs.zoom.us/v1.0/reference#reportmeetingdetails
+https://marketplace.zoom.us/docs/api-reference/zoom-api/reports/reportmeetingdetails
 
 | code | message                                           |
 |:---- |:------------------------------------------------- |
@@ -32,7 +36,7 @@ https://devdocs.zoom.us/v1.0/reference#reportmeetingdetails
 | 3001 | This meeting is not available or ID is not valid. |
 
 ### Retrieve meeting participants report
-https://devdocs.zoom.us/v1.0/reference#reportmeetingparticipants
+https://marketplace.zoom.us/docs/api-reference/zoom-api/reports/reportmeetingparticipants
 
 | code | message                                           |
 |:---- |:------------------------------------------------- |
@@ -45,7 +49,7 @@ https://devdocs.zoom.us/v1.0/reference#reportmeetingparticipants
 
 
 ### Retrieve meeting polls report
-https://devdocs.zoom.us/v1.0/reference#reportmeetingpolls
+https://marketplace.zoom.us/docs/api-reference/zoom-api/reports/reportmeetingpolls
 
 | code | message                                           |
 |:---- |:------------------------------------------------- |
@@ -55,7 +59,7 @@ https://devdocs.zoom.us/v1.0/reference#reportmeetingpolls
 
 
 ### Retrieve webinar details report
-https://devdocs.zoom.us/v1.0/reference#reportwebinardetails
+https://marketplace.zoom.us/docs/api-reference/zoom-api/reports/reportwebinardetails
 
 | code | message                                           |
 |:---- |:------------------------------------------------- |
@@ -67,7 +71,7 @@ https://devdocs.zoom.us/v1.0/reference#reportwebinardetails
 
 
 ### Retrieve webinar participants report
-https://devdocs.zoom.us/v1.0/reference#reportwebinarparticipants
+https://marketplace.zoom.us/docs/api-reference/zoom-api/reports/reportwebinarparticipants
 
 | code | message                                           |
 |:---- |:------------------------------------------------- |
@@ -80,7 +84,7 @@ https://devdocs.zoom.us/v1.0/reference#reportwebinarparticipants
 
 
 ### Retrieve webinar polls report
-https://devdocs.zoom.us/v1.0/reference#reportwebinarpolls
+https://marketplace.zoom.us/docs/api-reference/zoom-api/reports/reportwebinarpolls
 
 | code | message                                       |
 |:---- |:--------------------------------------------- |
@@ -90,7 +94,7 @@ https://devdocs.zoom.us/v1.0/reference#reportwebinarpolls
 | 3001 | Webinar ID is invalid or not end.             |
 
 ### Retrieve webinar Q&A report
-https://devdocs.zoom.us/v1.0/reference#reportwebinarqa
+https://marketplace.zoom.us/docs/api-reference/zoom-api/reports/reportwebinarqa
 
 | code | message                                       |
 |:---- |:--------------------------------------------- |
@@ -100,7 +104,7 @@ https://devdocs.zoom.us/v1.0/reference#reportwebinarqa
 | 3001 | Webinar ID is invalid or not end.             |
 
 ### Retrieve telephone report
-https://devdocs.zoom.us/v1.0/reference#reporttelephone
+https://marketplace.zoom.us/docs/api-reference/zoom-api/reports/reporttelephone
 
 | code | message                                        |
 |:---- |:---------------------------------------------- |
