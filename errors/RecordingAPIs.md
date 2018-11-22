@@ -1,3 +1,6 @@
+# Webinar APIs
+> Note: All the Record APIs are only for Biz+ accounts or paid accounts.
+
 ### List all the recordings
 https://marketplace.zoom.us/docs/api-reference/zoom-api/cloud-recording/recordingslist
 

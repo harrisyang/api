@@ -1,3 +1,6 @@
+# Meeting APIs
+> Note: All the Meeting APIs are only for Biz+ accounts or paid accounts.
+
 ### List meetings
 https://marketplace.zoom.us/docs/api-reference/zoom-api/meetings/meetings
 
@@ -70,6 +73,8 @@ code | message
 
 
 ### List a meeting’s registrants
+> Note: Should set registration required.
+
 https://marketplace.zoom.us/docs/api-reference/zoom-api/meetings/meetingregistrants
 
 code | message
@@ -82,6 +87,8 @@ code | message
 3003 | Not meeting host.
 
 ### Add a meeting registrant
+> Note: Should set registration required.
+
 https://marketplace.zoom.us/docs/api-reference/zoom-api/meetings/meetingregistrantcreate
 
 code | message
@@ -97,6 +104,8 @@ code | message
 3051 | If you have been invited, please input your work email address
 
 ### Update a meeting registrant’s status
+> Note: Should set registration required.
+
 https://marketplace.zoom.us/docs/api-reference/zoom-api/meetings/meetingregistrantstatus
 
 code | message

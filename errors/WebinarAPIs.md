@@ -1,3 +1,6 @@
+# Webinar APIs
+> Note: All the Webinar APIs are only for Biz+ accounts or paid accounts and subscribe webinar plan.
+
 ### List webinars
 https://marketplace.zoom.us/docs/api-reference/zoom-api/webinars/webinars
 
@@ -118,6 +121,8 @@ code | message
 3001 | Webinar {webinarId} not found or expired.
 
 ### List a webinar’s registrants
+> Note: Should set registration required.
+
 https://marketplace.zoom.us/docs/api-reference/zoom-api/webinars/webinarregistrants
 
 code | message
@@ -129,6 +134,8 @@ code | message
 3001 | Webinar {webinarId} not found or expired.
 
 ### Add a webinar registrant
+> Note: Should set registration required.
+
 https://marketplace.zoom.us/docs/api-reference/zoom-api/webinars/webinarregistrantcreate
 
 code | message
@@ -144,6 +151,8 @@ code | message
 3038 | Webinar is over, you can not register now. If you have any questions, please contact Webinar host.
 
 ### Update a webinar registrant’s status
+> Note: Should set registration required.
+
 https://marketplace.zoom.us/docs/api-reference/zoom-api/webinars/webinarregistrantstatus
 
 code | message
