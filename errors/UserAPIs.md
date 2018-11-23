@@ -1,8 +1,11 @@
+# User APIs
+> Note: All the User APIs are only for paid accounts.
+
 ### List Users
-https://devdocs.zoom.us/v1.0/reference#users
+https://marketplace.zoom.us/docs/api-reference/zoom-api/users/users
 
 ### Create a user
-https://devdocs.zoom.us/v1.0/reference#usercreate
+https://marketplace.zoom.us/docs/api-reference/zoom-api/users/usercreate
 
 | code | Message                                                                                                    |
 |:---- |:---------------------------------------------------------------------------------------------------------- |
@@ -24,7 +27,7 @@ https://devdocs.zoom.us/v1.0/reference#usercreate
 | 4130 | IM Group not exist: {imGroupId}                                                                            |
 
 ### Retrieve a user
-https://devdocs.zoom.us/v1.0/reference#user
+https://marketplace.zoom.us/docs/api-reference/zoom-api/users/user
 
 | code | Message                                       |
 |:---- |:--------------------------------------------- |
@@ -32,7 +35,7 @@ https://devdocs.zoom.us/v1.0/reference#user
 | 1120 | Invite not exist                              |
 
 ### Update a user
-https://devdocs.zoom.us/v1.0/reference#userupdate
+https://marketplace.zoom.us/docs/api-reference/zoom-api/users/userupdate
 
 | code | Message                                                                                             |
 |:---- |:--------------------------------------------------------------------------------------------------- |
@@ -50,7 +53,7 @@ https://devdocs.zoom.us/v1.0/reference#userupdate
 | 4100 | User is already taken. Choose another Personal Link Name and try again.                             | 
 
 ### Delete a user
-https://devdocs.zoom.us/v1.0/reference#userdelete
+https://marketplace.zoom.us/docs/api-reference/zoom-api/users/userdelete
 
 | code | Message                                                                                           |
 |:---- |:------------------------------------------------------------------------------------------------- |
@@ -66,7 +69,7 @@ https://devdocs.zoom.us/v1.0/reference#userdelete
 | 1120 | Invite not exist                                                                                  |
 
 ### List a user's assistants
-https://devdocs.zoom.us/v1.0/reference#userassistants
+https://marketplace.zoom.us/docs/api-reference/zoom-api/users/userassistants
 
 | code | Message                         |
 |:---- |:------------------------------- |
@@ -74,7 +77,9 @@ https://devdocs.zoom.us/v1.0/reference#userassistants
 | 1010 | User not belong to this account | 
 
 ### Add assistants
-https://devdocs.zoom.us/v1.0/reference#userassistantcreate
+> Note: User must be a Pro or Corp user
+
+https://marketplace.zoom.us/docs/api-reference/zoom-api/users/userassistantcreate
 
 | code | Message                                                    |
 |:---- |:---------------------------------------------------------- |
@@ -89,7 +94,7 @@ https://devdocs.zoom.us/v1.0/reference#userassistantcreate
 | 1010 | User not belong to this account                            |
 
 ### Delete a user's assistants
-https://devdocs.zoom.us/v1.0/reference#userassistantsdelete
+https://marketplace.zoom.us/docs/api-reference/zoom-api/users/userassistantsdelete
 
 | code | Message                         |
 |:---- |:------------------------------- |
@@ -97,7 +102,7 @@ https://devdocs.zoom.us/v1.0/reference#userassistantsdelete
 | 1010 | User not belong to this account | 
 
 ### Delete a user's assistant
-https://devdocs.zoom.us/v1.0/reference#userassistantdelete
+https://marketplace.zoom.us/docs/api-reference/zoom-api/users/userassistantdelete
 
 | code | Message                         |
 |:---- |:------------------------------- |
@@ -105,7 +110,7 @@ https://devdocs.zoom.us/v1.0/reference#userassistantdelete
 | 1010 | User not belong to this account | 
 
 ### List a user's schedulers
-https://devdocs.zoom.us/v1.0/reference#userschedulers
+https://marketplace.zoom.us/docs/api-reference/zoom-api/users/userschedulers
 
 | code | Message                         |
 |:---- |:------------------------------- |
@@ -113,7 +118,7 @@ https://devdocs.zoom.us/v1.0/reference#userschedulers
 | 1010 | User not belong to this account | 
 
 ### Delete a user's schedulers
-https://devdocs.zoom.us/v1.0/reference#userschedulersdelete
+https://marketplace.zoom.us/docs/api-reference/zoom-api/users/userschedulersdelete
 
 | code | Message                         |
 |:---- |:------------------------------- |
@@ -122,7 +127,7 @@ https://devdocs.zoom.us/v1.0/reference#userschedulersdelete
 
 
 ### Delete a user's scheduler
-https://devdocs.zoom.us/v1.0/reference#userschedulerdelete
+https://marketplace.zoom.us/docs/api-reference/zoom-api/users/userschedulerdelete
 
 | code | Message                         |
 |:---- |:------------------------------- |
@@ -130,7 +135,7 @@ https://devdocs.zoom.us/v1.0/reference#userschedulerdelete
 | 1010 | User not belong to this account | 
 
 ### Upload a user's picture
-https://devdocs.zoom.us/v1.0/reference#userpicture
+https://marketplace.zoom.us/docs/api-reference/zoom-api/users/userpicture
 
 | code | Message                                               |
 |:---- |:----------------------------------------------------- |
@@ -141,7 +146,7 @@ https://devdocs.zoom.us/v1.0/reference#userpicture
 | 1010 | User not belong to this account                       |
 
 ### Retrieve a user's settings
-https://devdocs.zoom.us/v1.0/reference#usersettings
+https://marketplace.zoom.us/docs/api-reference/zoom-api/users/usersettings
 
 | code | Message                                       |
 |:---- |:--------------------------------------------- |
@@ -151,7 +156,7 @@ https://devdocs.zoom.us/v1.0/reference#usersettings
 | 1000 | Can not access pending user settings.         | 
 
 ### Update a user's settings
-https://devdocs.zoom.us/v1.0/reference#usersettingsupdate
+https://marketplace.zoom.us/docs/api-reference/zoom-api/users/usersettingsupdate
 
 | code | Message                                           |
 |:---- |:------------------------------------------------- |
@@ -174,7 +179,7 @@ https://devdocs.zoom.us/v1.0/reference#usersettingsupdate
 | 1122 | Only Pro or Corp user can enable Webinar feature. |
 
 ### Update a user's status
-https://devdocs.zoom.us/v1.0/reference#userstatus
+https://marketplace.zoom.us/docs/api-reference/zoom-api/users/userstatus
 
 | code | Message                                                           |
 |:---- |:----------------------------------------------------------------- |
@@ -183,7 +188,7 @@ https://devdocs.zoom.us/v1.0/reference#userstatus
 | 1010 | User not exist or not belong to this account: {userId}            | 
 
 ### Update a user's password
-https://devdocs.zoom.us/v1.0/reference#userpassword
+https://marketplace.zoom.us/docs/api-reference/zoom-api/users/userpassword
 
 | code | Message                                                              |
 |:---- |:-------------------------------------------------------------------- |
@@ -202,7 +207,7 @@ https://devdocs.zoom.us/v1.0/reference#userpassword
 | 1136 | Your password is too easy to guess. Try another one.                 |
 
 ### Retrieve a user's permissions
-https://devdocs.zoom.us/v1.0/reference#userpermission
+https://marketplace.zoom.us/docs/api-reference/zoom-api/users/userpermission
 
 | code | Message                         |
 |:---- |:------------------------------- |
@@ -210,7 +215,7 @@ https://devdocs.zoom.us/v1.0/reference#userpermission
 | 1010 | User not belong to this account | 
 
 ### Retrieve a user's token
-https://devdocs.zoom.us/v1.0/reference#usertoken
+https://marketplace.zoom.us/docs/api-reference/zoom-api/users/usertoken
 
 | code | Message                         |
 |:---- |:------------------------------- |
@@ -218,24 +223,25 @@ https://devdocs.zoom.us/v1.0/reference#usertoken
 | 1010 | User not belong to this account | 
 
 ### Revoke a user's SSO token
-https://devdocs.zoom.us/v1.0/reference#userssotokendelete
+https://marketplace.zoom.us/docs/api-reference/zoom-api/users/userssotokendelete
 
 
 ### Check a user's email
-https://devdocs.zoom.us/v1.0/reference#useremail
+https://marketplace.zoom.us/docs/api-reference/zoom-api/users/useremail
 
 | code | Message            |
 |:---- |:------------------ |
 | 300  | Email is required. | 
 
 ### Check a user's personal meeting room name
-https://devdocs.zoom.us/v1.0/reference#uservanityname
+https://marketplace.zoom.us/docs/api-reference/zoom-api/users/uservanityname
 
 | code | Message                  |
 |:---- |:------------------------ |
 | 300  | Vanity name is required. | 
 
 ### Change a user's email
+https://marketplace.zoom.us/docs/api-reference/zoom-api/users/useremailupdate
 
 | code | Message                                                                                                                 |
 |:---- |:----------------------------------------------------------------------------------------------------------------------- |
