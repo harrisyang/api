@@ -1,3 +1,6 @@
+# Account APIs
+> Note: All the Account APIs are only for master accounts.
+
 ### Create a sub account 
 https://devdocs.zoom.us/v1.0/reference#accountcreate
 
@@ -32,6 +35,7 @@ https://devdocs.zoom.us/v1.0/reference#accountdisassociate
 | 2000 | Cannot disassociate a paid account. | 
 
 ### Retrieve a sub account's settings
+> Note: Only available for Paid account.
 https://devdocs.zoom.us/v1.0/reference#accountsettings
 
 | code | message                                                                |
@@ -42,6 +46,7 @@ https://devdocs.zoom.us/v1.0/reference#accountsettings
 
 
 ### Update a sub account's settings
+> Note: Only available for Paid account.
 https://devdocs.zoom.us/v1.0/reference#accountsettingsupdate
 
 | code | message                                                                |
