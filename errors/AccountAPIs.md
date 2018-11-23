@@ -36,6 +36,7 @@ https://devdocs.zoom.us/v1.0/reference#accountdisassociate
 
 ### Retrieve a sub account's settings
 > Note: Only available for Paid account.
+
 https://devdocs.zoom.us/v1.0/reference#accountsettings
 
 | code | message                                                                |
@@ -47,6 +48,7 @@ https://devdocs.zoom.us/v1.0/reference#accountsettings
 
 ### Update a sub account's settings
 > Note: Only available for Paid account.
+
 https://devdocs.zoom.us/v1.0/reference#accountsettingsupdate
 
 | code | message                                                                |
