@@ -1,5 +1,8 @@
+# Billing APIs
+> Note: All the Billing APIs are only for master accounts.
+
 ### Retrieve billing information for a sub account
-https://devdocs.zoom.us/v1.0/reference#billing
+https://marketplace.zoom.us/docs/api-reference/zoom-api/billing/accountbilling
 
 | code | message                                                                | 
 |:---- |:---------------------------------------------------------------------  |
@@ -10,7 +13,9 @@ https://devdocs.zoom.us/v1.0/reference#billing
 | 3211 | There is no contact for contact id: {contactId}.                       |
 
 ### Update billing information for a sub account
-https://devdocs.zoom.us/v1.0/reference#accountbillingupdate
+> Note: Only for the sub account which is a paid account and paid by master account
+
+https://marketplace.zoom.us/docs/api-reference/zoom-api/billing/accountbillingupdate
 
 | code | message                                                                |
 |:---- |:---------------------------------------------------------------------- |
@@ -23,7 +28,9 @@ https://devdocs.zoom.us/v1.0/reference#accountbillingupdate
 | 3211 | Cannot find the soldToContact with the accountID: {accountId}.         |
 
 ### Retrieve plan information for a sub account
-https://devdocs.zoom.us/v1.0/reference#accountplans
+> Note: Only for the sub account which is paid by master account
+
+https://marketplace.zoom.us/docs/api-reference/zoom-api/billing/accountplans
 
 | code | message                                                                | 
 |:---- |:---------------------------------------------------------------------  | 
@@ -32,7 +39,9 @@ https://devdocs.zoom.us/v1.0/reference#accountplans
 | 2100 | This sub account is paid by self.                                      |    
 
 ### Subscribe plans for a sub account
-https://devdocs.zoom.us/v1.0/reference#accountplancreate
+> Note: Can only subscribe plans for the sub account which is a free account and paid by master account
+
+https://marketplace.zoom.us/docs/api-reference/zoom-api/billing/accountplancreate
 
 | code | message                                                                                                                               |
 |:---- |:------------------------------------------------------------------------------------------------------------------------------------- |
@@ -70,7 +79,9 @@ https://devdocs.zoom.us/v1.0/reference#accountplancreate
 | 3261 | Must subscribe to a major plan first.                                                                                                 |
 
 ### Update a base plan for a sub account
-https://devdocs.zoom.us/v1.0/reference#accountplanbaseupdate
+> Note: Can only update a base plan for the sub account which is a paid account and paid by master account
+
+https://marketplace.zoom.us/docs/api-reference/zoom-api/billing/accountplanbaseupdate
 
 | code | message                                                                                                                               |
 | ---- | ------------------------------------------------------------------------------------------------------------------------------------- |
@@ -108,7 +119,9 @@ https://devdocs.zoom.us/v1.0/reference#accountplanbaseupdate
 | 3261 | Failed to change sub plan of account:{accountId}                                                                                      |
 
 ### Add an additional plan for sub account
-https://devdocs.zoom.us/v1.0/reference#accountplanaddoncreate
+> Note: Can only add an Additional plan for the sub account which is a paid account and paid by master account
+
+https://marketplace.zoom.us/docs/api-reference/zoom-api/billing/accountplanaddoncreate
 
 | code | message                                                                                                                               |     |
 |:---- |:------------------------------------------------------------------------------------------------------------------------------------- | --- |
@@ -127,7 +140,9 @@ https://devdocs.zoom.us/v1.0/reference#accountplanaddoncreate
 | 3261 | Failed to change sub plan of account: {accountId}                                                                                     |     |
 
 ### Update an additional plan for sub account
-https://devdocs.zoom.us/v1.0/reference#accountplanaddonupdate
+> Note: Can only update an Additional plan for the sub account which is a paid account and paid by master account
+
+https://marketplace.zoom.us/docs/api-reference/zoom-api/billing/accountplanaddonupdate
 
 | code | message                                                                                                                               |     |
 |:---- |:------------------------------------------------------------------------------------------------------------------------------------- | --- |
