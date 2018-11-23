@@ -2,7 +2,7 @@
 > Note: All the Account APIs are only for master accounts.
 
 ### Create a sub account 
-https://devdocs.zoom.us/v1.0/reference#accountcreate
+https://marketplace.zoom.us/docs/api-reference/zoom-api/accounts/accountcreate
 
 | code | message                               |
 |:---- |:------------------------------------- |
@@ -11,7 +11,7 @@ https://devdocs.zoom.us/v1.0/reference#accountcreate
 
 
 ### Update a sub account's options 
-https://devdocs.zoom.us/v1.0/reference#accountoptionsupdate
+https://marketplace.zoom.us/docs/api-reference/zoom-api/accounts/accountoptionsupdate
 
 | code | message                                                                 |
 |:---- |:----------------------------------------------------------------------- |
@@ -20,7 +20,7 @@ https://devdocs.zoom.us/v1.0/reference#accountoptionsupdate
 | 2100 | The collection method cannot be changed after the purchase is complete. | 
 
 ### Retrieve a sub account
-https://devdocs.zoom.us/v1.0/reference#account
+https://marketplace.zoom.us/docs/api-reference/zoom-api/accounts/account
 
 | code | message                                                                |
 |:---- |:---------------------------------------------------------------------  |
@@ -28,7 +28,7 @@ https://devdocs.zoom.us/v1.0/reference#account
 
 
 ### Disassociate an account 
-https://devdocs.zoom.us/v1.0/reference#accountdisassociate
+https://marketplace.zoom.us/docs/api-reference/zoom-api/accounts/accountdisassociate
 
 | code | message                             |
 |:---- |:----------------------------------- |
@@ -37,7 +37,7 @@ https://devdocs.zoom.us/v1.0/reference#accountdisassociate
 ### Retrieve a sub account's settings
 > Note: Only available for Paid account.
 
-https://devdocs.zoom.us/v1.0/reference#accountsettings
+https://marketplace.zoom.us/docs/api-reference/zoom-api/accounts/accountsettings
 
 | code | message                                                                |
 |:---- |:---------------------------------------------------------------------  |
@@ -49,7 +49,7 @@ https://devdocs.zoom.us/v1.0/reference#accountsettings
 ### Update a sub account's settings
 > Note: Only available for Paid account.
 
-https://devdocs.zoom.us/v1.0/reference#accountsettingsupdate
+https://marketplace.zoom.us/docs/api-reference/zoom-api/accounts/accountsettingsupdate
 
 | code | message                                                                |
 |:---- |:---------------------------------------------------------------------  |
