@@ -8151,9 +8151,9 @@
                     "type": "boolean",
                     "description": "Workplace by facebook"
                 },
-                "custom_live_streaming": {
+                "custom_live_streaming_service": {
                     "type": "boolean",
-                    "description": "Custom live streaming"
+                    "description": "Custom live streaming service"
                 },
                 "custom_service_instructions": {
                     "type": "string",
@@ -11324,9 +11324,9 @@
                     "type": "boolean",
                     "description": "Workplace by facebook"
                 },
-                "custom_live_streaming": {
+                "custom_live_streaming_service": {
                     "type": "boolean",
-                    "description": "Custom live streaming"
+                    "description": "Custom live streaming service"
                 },
                 "custom_service_instructions": {
                     "type": "string",
